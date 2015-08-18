@@ -82,14 +82,14 @@ public class MainActivity extends AppCompatActivity
         cb = (CheckBox)findViewById(R.id.cb_apple);
         EditText orange;
         if(cb.isChecked()){
-            orange = (EditText)findViewById(R.id.et_apple);
+            orange = (EditText)findViewById(R.id.et_orange);
         }else{
             orange = null;
         }
         cb = (CheckBox)findViewById(R.id.cb_apple);
         EditText peach;
         if(cb.isChecked()){
-            peach = (EditText)findViewById(R.id.et_apple);
+            peach = (EditText)findViewById(R.id.et_peach);
         }else{
             peach = null;
         }

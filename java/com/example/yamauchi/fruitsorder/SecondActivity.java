@@ -69,7 +69,7 @@ public class SecondActivity extends AppCompatActivity
             tvGender.setText(gender);
             tvApple.setText(apple);
             tvOrange.setText(orange);
-            tvOrange.setText(peach);
+            tvPeach.setText(peach);
         }
     }
 
@@ -107,7 +107,7 @@ public class SecondActivity extends AppCompatActivity
             ContentValues vals = new ContentValues();
             vals.put("name", findViewById(R.id.tv_name).toString());
             vals.put("address", findViewById(R.id.tv_address).toString());
-            vals.put("gender", findViewById(R.id.tv_gender).toString());
+            vals.put("gendar", findViewById(R.id.tv_gender).toString());
             vals.put("apple", findViewById(R.id.tv_apple).toString());
             vals.put("orange", findViewById(R.id.tv_orange).toString());
             vals.put("peach", findViewById(R.id.tv_peach).toString());
