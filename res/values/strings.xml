@@ -21,6 +21,8 @@
     <string name="tv_hyphen">-----</string>
     <string name="bt_send">送信</string>
     <string name="bt_back">戻る</string>
+    <string name="bt_confirm">確認</string>
+    <string name="tv_endmessage">お申込みありがとうございました．</string>
 
     <string-array name="month">
         <item>1</item>
@@ -71,4 +73,5 @@
     </string-array>
 
     <string name="title_activity_second">SecondActivity</string>
+    <string name="title_activity_third">ThirdActivity</string>
 </resources>
