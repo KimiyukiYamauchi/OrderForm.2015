@@ -105,12 +105,12 @@ public class SecondActivity extends AppCompatActivity
 
             // データベースに保存
             ContentValues vals = new ContentValues();
-            vals.put("name", findViewById(R.id.tv_name).toString());
-            vals.put("address", findViewById(R.id.tv_address).toString());
-            vals.put("gendar", findViewById(R.id.tv_gender).toString());
-            vals.put("apple", findViewById(R.id.tv_apple).toString());
-            vals.put("orange", findViewById(R.id.tv_orange).toString());
-            vals.put("peach", findViewById(R.id.tv_peach).toString());
+            vals.put("name", ((TextView)findViewById(R.id.tv_name)).getText().toString());
+            vals.put("address", ((TextView)findViewById(R.id.tv_address)).getText().toString());
+            vals.put("gendar", ((TextView)findViewById(R.id.tv_gender)).getText().toString());
+            vals.put("apple", ((TextView)findViewById(R.id.tv_apple)).getText().toString());
+            vals.put("orange", ((TextView)findViewById(R.id.tv_orange)).getText().toString());
+            vals.put("peach", ((TextView)findViewById(R.id.tv_peach)).getText().toString());
 
             DBHelper dbh = new DBHelper(this);
             SQLiteDatabase db = dbh.getWritableDatabase();
